@@ -1,0 +1,20 @@
+.screen_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  height: 360px;
+  border: 3px solid #6a6a6a;
+  padding: 10px;
+
+  .place_holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #8080805e;
+  }
+}

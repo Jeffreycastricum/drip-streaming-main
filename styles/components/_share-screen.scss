@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .screen_share {
+    div {
+      height: auto !important;
+      width: auto !important;
+    }
+  }
+
+  .webcam_share {
+    div {
+      height: auto !important;
+    }
+  }
+}

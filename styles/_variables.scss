@@ -1,0 +1,7 @@
+$background-color: #60606059;
+
+// RIGHT, will work in all Sass versions.
+
+:root {
+  --background-color: #{$background-color};
+}

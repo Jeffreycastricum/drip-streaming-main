@@ -1,0 +1,23 @@
+.joinscreen {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+  }
+  &_input {
+    padding: 0.5rem 1rem;
+    color: #000;
+    border-radius: 0.75rem;
+  }
+  &_button {
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    @apply bg-neutral-800;
+    &:hover {
+      @apply bg-neutral-700;
+    }
+  }
+}
